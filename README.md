@@ -36,8 +36,7 @@ tic-tac-toe/
 ├── style.css # Styling for the game
 ├── script.js # JavaScript logic for gameplay
 
-yaml
-Copy code
+
 
 ---
 
