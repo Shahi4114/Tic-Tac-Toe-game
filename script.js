@@ -3,7 +3,8 @@ let resetBtn=document.querySelector("#reset-btn");
 let newGameBtn=document.querySelector("#new-btn");
 let msgContainer=document.querySelector(".msg-container");
 let msg=document.querySelector("#msg");
-let gameDraw=document.querySelector(".draw-game")
+let gameDraw=document.querySelector(".draw-game");
+const clickSound =new Audio('./sounds/clickable.wav')
 let count=0;
 
 let turn0= true; //playerX ,player0;
@@ -41,6 +42,9 @@ const gameIsDraw = (count) =>{
 
 boxes.forEach((box) => {
     box.addEventListener("click", () =>{
+        clickSound.pause();
+        clickSound.currentTime=0;
+        clickSound.play();
         if(turn0){ //playerO
             box.style.color="green";
             box.innerText="X";
