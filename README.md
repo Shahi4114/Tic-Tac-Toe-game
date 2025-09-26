@@ -31,12 +31,12 @@ Open the `index.html` file in any modern web browser to start playing.
 
 ## Project Structure
 
+~~~plaintext
 tic-tac-toe/
-├── index.html # Main HTML page
-├── style.css # Styling for the game
-├── script.js # JavaScript logic for gameplay
-
-
+├── index.html       # Main HTML page
+├── style.css        # Styling for the game
+├── script.js        # JavaScript logic for gameplay
+~~~
 
 ---
 
